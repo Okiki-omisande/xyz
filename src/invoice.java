@@ -5,7 +5,7 @@
 // the class have a constructor
 //that initializes the four instance variables.
 // Provide a set and a get method for each instance variable.
-//In addition, provide a method named getInvoiceAmount that calculates the invoice amount (i.e.,
+//In addition, provide a method named getInvoiceAmount that calculates the invoice amount (i.e
 //multiplies the quantity by the price per item), then returns the amount as a double value. If the
 //quantity is not positive, it should be set to 0. If the price per item is not positive, it should be set to 0.0
 //Write a test app named InvoiceTest that demonstrates class Invoice’s capabilities
