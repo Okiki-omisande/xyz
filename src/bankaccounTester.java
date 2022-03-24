@@ -38,7 +38,7 @@ public class bankaccounTester
         System.out.println("Please enter withdrawal amount:");
         double withdrawal1 = input.nextDouble();
         acct1.setWithdrawal(withdrawal1);
-        System.out.printf("%n withdrawing %.2f to balance %n", withdrawal1);
+        System.out.printf("%n withdrawing %.2f from balance %n", withdrawal1);
 
     //display balance
         System.out.printf("%n%s %.2f",acct1.getName(),acct1.getBalance());

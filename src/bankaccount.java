@@ -1,8 +1,9 @@
+//create a bank that allows user to deposit,withdraw and check balance
+
 public class bankaccount
 {
 private String name;
 private double balance;
-private double withdrawal;
 
     public bankaccount(String name, double balance, double withdrawal)
     {
@@ -11,8 +12,9 @@ private double withdrawal;
         if (balance > 0.0)
             this.balance = balance;
 
+        double withdrawal1;
         if (withdrawal <= balance)
-            this.withdrawal = withdrawal;
+            withdrawal1 = withdrawal;
 
     }
 
