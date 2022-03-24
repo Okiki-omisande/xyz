@@ -1,4 +1,4 @@
-//create a bank that allows user to deposit,withdraw and check balance
+// a bankApp that allows user to deposit,withdraw and check balance
 
 public class bankaccount
 {
